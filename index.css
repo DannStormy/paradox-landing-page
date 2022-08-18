@@ -289,7 +289,6 @@ a:hover {
 .information-lists {
   display: flex;
   padding: 20px;
-  /* justify-content: space-between; */
 }
 .each-il {
   margin-right: 100px;
@@ -337,11 +336,9 @@ a:hover {
     font-weight: 500;
   }
   a:hover{
-    color: rgb(255, 104, 140);
+    color: white;
   }
   .logo {
-    /* width: 67px;
-    height: 50px; */
     margin-top: 0;
   }
   .logo-img{
@@ -364,25 +361,19 @@ a:hover {
   nav {
     margin: 0;
     position: relative;
-    /* justify-content: center; */
-    /* padding: 10px; */
   }
   nav li {
-    /* margin-right: 18px; */
     padding: 25px;
     margin-right: 0;
-  }
-  nav li:hover{
-    background-color: white;
   }
   .nav-items {
     display: none;
     position: absolute;
     background:rgb(255, 104, 140, 0.9);
-    width: 200px;
+    width: 100%;
     height: auto;
     top: 0;
-    left: 190px;  }
+  }
   .hero {
     margin: 0;
     flex-direction: column;
